@@ -1,4 +1,4 @@
-# Blackjack.game
+# Javascript.Blackjack
 Un divertido juego de cartas de BlackJack, donde puedes apostar monedas virtuales.
 
 
