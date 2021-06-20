@@ -1,0 +1,310 @@
+body{
+  background-color: #DFDFDF;
+  margin: 0;
+  padding: 0;
+
+}
+
+#contenido{
+  height: 800px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navBar{
+  height: 100px;
+  width: 100vw;
+  font-size: 20px;
+  padding-left: 30px;
+  background-color: white;
+  border-bottom: 2px solid black;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+#navBar div{
+  margin-right: 40px;
+}
+
+#logo{
+  margin-left: 30px;
+}
+
+#navBar a{
+  text-decoration: none;
+  color: black;
+
+}
+
+#navBar a:hover{
+  color: #45A1D8;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.fa-money-bill-wave{
+  color: green;
+  margin-right: 10px;
+}
+
+#dinero{
+  background-color: white;
+  padding: 10px 40px;
+  border-radius: 30px;
+  border: 4px solid #45A1D8;
+}
+
+#dinero a{
+  color: black;
+}
+
+#audio{
+  display: none;
+}
+
+#contenedor{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#partida{
+  display: none;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  border: 4px solid black;
+  width: 1200px;
+  height: 700px;
+  border: 4px solid #45A1D8;
+  box-sizing: border-box;
+}
+
+#empezarPartida{
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: 1px solid black;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 20;
+  border: 4px solid #45A1D8;
+
+}
+
+#empezarPartida:hover{
+  cursor: pointer;
+  background-color: #45A1D8;
+  color: white;
+  transition: 0.7s;
+}
+
+#header{
+  height: 60px;
+  width: 100%;
+
+}
+
+#cerrarModal{
+  border-radius: 300px;
+  float: right;
+  margin: 30px 40px;
+  font-family: 'Hammersmith One', sans-serif;
+  border: 1px solid black;
+
+}
+
+#cerrarModal:hover{
+  background-color: #45A1D8;
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#segundaFranja{
+
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#apuestaActual{
+  height: 40px;
+  width: 270px;
+  background-color: white;
+  margin-left: 50px;
+  border-radius: 50px;
+  padding: 0px 20px;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 20px;
+  border: 4px solid #45A1D8;
+  display: flex;
+  align-items: center;
+}
+
+#apuestaActual .fa-money-bill-wave{
+  margin: 10px;
+}
+
+#premioActual{
+  height: 40px;
+  width: 270px;
+  background-color: white;
+  margin-left: 50px;
+  border-radius: 50px;
+  padding: 0px 20px;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 20px;
+  border: 4px solid #45A1D8;
+  display: flex;
+  align-items: center;
+}
+
+#puntuacionActual{
+  height: 40px;
+  width: 270px;
+  background-color: white;
+  border-radius: 50px;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 20px;
+  border: 4px solid #45A1D8;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding: 0px 30px;
+  margin-left: 50px;
+}
+
+#miPuntuacion p{
+  margin: 0;
+  padding: 0;
+}
+
+#premioActual .fa-money-bill-wave{
+  margin: 10px;
+}
+
+#cartaTocada{
+  height: 550px;
+  width: 35%;
+  border-bottom-left-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img{
+  height: 200px;
+  width: 150px;
+  display: none;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+#turnosElecciones{
+  height: 550px;
+  width: 65%;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 30px;
+}
+
+#interactivo{
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+}
+
+#turnoDe, #cartaRandom{
+  font-size: 25px;
+  color: black;
+  font-family: 'Hammersmith One', sans-serif;
+  margin-top: 50px;
+}
+
+#hit{
+  height: 50px;
+  width: 200px;
+  background-color: #47C77A;
+  margin-top: 50px;
+  border: 3px solid black;
+  border-radius: 50px;
+  text-align: center;
+  font-family: 'Hammersmith One', sans-serif;
+  color: black;
+}
+
+#hit:hover{
+  background-color: #47C760;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#stand{
+  height: 50px;
+  width: 200px;
+  background-color: #C74747;
+  margin-top: 50px;
+  border: 3px solid black;
+  border-radius: 50px;
+  text-align: center;
+  font-family: 'Hammersmith One', sans-serif;
+  color: black;
+}
+
+#stand:hover{
+  background-color: #C82323;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#seguir{
+  height: 50px;
+  width: 200px;
+  background-color: #23C88A;
+  margin-top: 50px;
+  border: 3px solid black;
+  border-radius: 50px;
+  text-align: center;
+  font-family: 'Hammersmith One', sans-serif;
+  color: black;
+  display: none;
+}
+
+#seguir:hover{
+  background-color: #21B576;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#cartaBordeSuperior{
+  height: 30px;
+  width: 150px;
+
+  border: 3px solid black;
+  border-bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#cartaBordeInferior{
+  height: 30px;
+  width: 150px;
+
+  border: 3px solid black;
+  border-top: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#cajaUsuario{
+  margin-left: 30%;
+}
